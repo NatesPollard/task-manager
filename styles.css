@@ -2,6 +2,8 @@
 table {
     border-collapse: collapse;
     width: 100%;
+    /* important for  merging the border so it doesnt look ugly w
+    ith the little gaps */
 }
 
 table,
@@ -9,7 +11,7 @@ th,
 td{
     border:1px solid black;
 }
-th
+th,
 td {
     padding:15px;
     text-align: left;
